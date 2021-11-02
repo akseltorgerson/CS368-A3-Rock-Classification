@@ -1,5 +1,4 @@
 #include <cstdlib>
-#include "Rock.h"
 #include "Ruby.h"
 #include "Gold.h"
 #include "Diamond.h"

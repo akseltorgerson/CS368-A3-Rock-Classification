@@ -1,3 +1,4 @@
+#include "Rock.h"
 #ifndef SANDSTONE_HEADER
 #define SANDSTONE_HEADER
 class Sandstone : public Rock {

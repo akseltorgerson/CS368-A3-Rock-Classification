@@ -1,3 +1,4 @@
+#include "Rock.h"
 #ifndef DIAMOND_HEADER
 #define DIAMOND_HEADER
 class Diamond : public Rock {

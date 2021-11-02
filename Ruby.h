@@ -1,3 +1,4 @@
+#include "Rock.h"
 #ifndef RUBY_HEADER
 #define RUBY_HEADER
 class Ruby : public Rock {

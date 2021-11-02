@@ -1,11 +1,7 @@
-#include <cstdlib>
+#include <string>
 #include <iostream>
-#include <cstring>
-#include "Rock.h"
-#include "Ruby.h"
-#include "Gold.h"
-#include "Diamond.h"
-#include "Sandstone.h"
+
+using namespace std;
 
 #ifndef ROCK_HEADER
 #define ROCK_HEADER
@@ -16,12 +12,12 @@ class Rock {
 
     public:
         Rock(float _mass)  {
-            this.classification = "Rock";
-            this.mass = _mass;
+            classification = "Rock";
+            mass = _mass;
         }
         void Print() {
-            cout << this.classification << ": " << mass << " grams" << endl;
+            cout << classification << ": " << mass << " grams" << endl;
         }
-        virtual bool Inspect();
+        virtual bool Inspect() = 0;
 };
 #endif

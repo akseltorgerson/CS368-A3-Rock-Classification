@@ -26,18 +26,19 @@ int main() {
         cin >> selection;
         switch (selection) {
             case ROCK:
-                inspection.Add(PanForRock());
+								next = PanForRock();
+								inspection.Add(next);
                 break;
             case INSPECT:
-                Rock* removedRock = inspection.Remove();
-                if (removedRock.Inspect()) {
-                    cout << "Nice Rock Bro!" << endl;
-                    removedRock.Print();
-                    keepers.Add(removedRock);
-                } else {
-                    delete removedRock;
-                }
-                break;
+             		next = inspection.Remove();
+              	if (next->Inspect()) {
+                	  cout << "Nice Rock Bro!" << endl;
+                		next->Print();
+                		keepers.Add(next);
+              	} else {
+                 		delete next;
+              	}
+              	break;
             case LIST_INSPECT:
                 inspection.Print();
                 break;
