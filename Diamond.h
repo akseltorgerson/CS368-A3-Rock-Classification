@@ -1,3 +1,6 @@
+// Aksel Torgerson
+// atorgerson
+
 #include "Rock.h"
 #ifndef DIAMOND_HEADER
 #define DIAMOND_HEADER

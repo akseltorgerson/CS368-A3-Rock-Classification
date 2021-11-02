@@ -1,3 +1,6 @@
+// Aksel Torgerson
+// atorgerson
+
 #include "Rock.h"
 #ifndef SANDSTONE_HEADER
 #define SANDSTONE_HEADER

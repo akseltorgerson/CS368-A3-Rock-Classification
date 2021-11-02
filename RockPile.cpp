@@ -1,3 +1,6 @@
+// Aksel Torgerson
+// atorgerson
+
 #include "RockPile.h"
 
 using namespace std;

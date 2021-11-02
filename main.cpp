@@ -1,3 +1,6 @@
+// Aksel Torgerson
+// atorgerson
+
 #include <iostream>
 #include <cstdlib>
 #include <time.h>

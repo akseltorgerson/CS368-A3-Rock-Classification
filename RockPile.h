@@ -1,3 +1,6 @@
+// Aksel Torgerson
+// atorgerson
+
 #include <cstring>
 #include "Rock.h"
 #ifndef ROCKPILE_HEADER

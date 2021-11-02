@@ -1,3 +1,6 @@
+// Aksel Torgerson
+// atorgerson
+
 #include "Rock.h"
 #ifndef GOLD_HEADER
 #define GOLD_HEADER
